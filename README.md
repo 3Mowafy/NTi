@@ -12,12 +12,12 @@
 # Tasks
 
 
-- [ ] ` ` - 01 - Task_1 => 
-- [ ] ` ` - 02 - Task_2 => 
-- [ ] ` ` - 03 - Task_3 => 
-- [ ] ` ` - 04 - Task_4 => 
-- [ ] ` ` - 05 - Task_5 => 
-- [ ] ` ` - 06 - Task_6 => 
+- [x] ` Finsihed ` [Task_1 => Create && Read](https://github.com/3Mowafy/NTi/tree/main/Task_1)
+- [ ] ` ` Task_2 => 
+- [ ] ` ` Task_3 => 
+- [ ] ` ` Task_4 => 
+- [ ] ` ` Task_5 => 
+- [ ] ` ` Task_6 => 
 
 
 :man_student:`و من يتهيب صعود الجبال يعش أبد الدهر بين الحفر` :man_student:
