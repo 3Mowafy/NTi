@@ -57,7 +57,7 @@ if (articlesInfo) {
 
             writeOnLocalStorage(el, "title");
             readFromLocalStorage("title");
-            window.location.href = "../pages/single.html";
+            window.location.href = "pages/single.html";
         });
     });
 }
