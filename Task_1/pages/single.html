@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title></title>
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../css/all.min.css" />
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+                <a class="navbar-brand ms-2" href="../index.html">
+                    <i class="fa-solid fa-file-pen fa-2x"></i>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="../index.html"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="add.html">Add Article</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="my-5 container">
+            <table class="table table-bordered" id="singleAtricle">
+                <thead>
+                    <tr>
+                        <th class="text-center p-3 fs-1" id="title"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td
+                            class="p-5 text-center"
+                            style="text-align: justify"
+                            id="content"
+                        ></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-bordered bg-dark text-white">
+                <thead>
+                    <tr>
+                        <th class="text-center" colspan="2">Comments</th>
+                    </tr>
+                    <tr>
+                        <th class="text-center w-25">Name</th>
+                        <th class="text-center">Comment</th>
+                    </tr>
+                </thead>
+                <tbody id="articleComments"></tbody>
+            </table>
+        </section>
+        <section class="my-5 container">
+            <h1 class="text-center mb-3">Add Your Comment Here</h1>
+            <form id="addComment">
+                <div class="mb-3">
+                    <input
+                        class="form-control"
+                        name="name"
+                        type="text"
+                        placeholder="Write Your Name Here"
+                    />
+                </div>
+                <div class="mb-3" style="height: 200px">
+                    <textarea
+                        class="form-control h-100"
+                        name="details"
+                        placeholder="Write Your Comment Here"
+                    ></textarea>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-dark">Add Article</button>
+                </div>
+            </form>
+        </section>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"
+        ></script>
+        <script src="../js/users.js"></script>
+    </body>
+</html>
