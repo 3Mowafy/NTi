@@ -13,7 +13,7 @@
 
 
 - [x] ` Finsihed ` [Task_1 => Create && Read](https://github.com/3Mowafy/NTi/tree/main/Task_1)
-- [ ] ` ` Task_2 => 
+- [x] ` Finsihed ` [Task_2 => APIs](https://github.com/3Mowafy/NTi/tree/main/Task_2)
 - [ ] ` ` Task_3 => 
 - [ ] ` ` Task_4 => 
 - [ ] ` ` Task_5 => 
