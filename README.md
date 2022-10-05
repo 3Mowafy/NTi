@@ -12,13 +12,22 @@
 # Tasks
 
 
-- [x] ` Finsihed ` [Task_1 => Create && Read](https://github.com/3Mowafy/NTi/tree/main/Task_1)
-- [x] ` Finsihed ` [Task_2 => APIs](https://github.com/3Mowafy/NTi/tree/main/Task_2)
+- [x] ` Finsihed ` [Task_1 => Create && Read](https://github.com/3Mowafy/NTi/tree/main/Tasks/Task_1)
+- [ ] ` ` Task_2 => 
 - [ ] ` ` Task_3 => 
 - [ ] ` ` Task_4 => 
 - [ ] ` ` Task_5 => 
 - [ ] ` ` Task_6 => 
 
+
+# Practices
+
+- [x] ` Finsihed ` [Practice_1 => APIs](https://github.com/3Mowafy/NTi/tree/main/Practices/Practice_1)
+- [x] ` Finsihed ` [Practice_1 => Node (Create && Read && Update && Delete && Create Inside Item)](https://github.com/3Mowafy/NTi/tree/main/Practices/Practice_2)
+- [ ] ` ` Task_3 => 
+- [ ] ` ` Task_4 => 
+- [ ] ` ` Task_5 => 
+- [ ] ` ` Task_6 => 
 
 :man_student:`و من يتهيب صعود الجبال يعش أبد الدهر بين الحفر` :man_student:
 --
