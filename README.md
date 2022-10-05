@@ -23,11 +23,11 @@
 # Practices
 
 - [x] ` Finsihed ` [Practice_1 => APIs](https://github.com/3Mowafy/NTi/tree/main/Practices/Practice_1)
-- [x] ` Finsihed ` [Practice_1 => Node (Create && Read && Update && Delete && Create Inside Item)](https://github.com/3Mowafy/NTi/tree/main/Practices/Practice_2)
-- [ ] ` ` Task_3 => 
-- [ ] ` ` Task_4 => 
-- [ ] ` ` Task_5 => 
-- [ ] ` ` Task_6 => 
+- [x] ` Finsihed ` [Practice_2 => Node (Create && Read && Update && Delete && Create Inside Item)](https://github.com/3Mowafy/NTi/tree/main/Practices/Practice_2)
+- [ ] ` ` Practice_3 => 
+- [ ] ` ` Practice_4 => 
+- [ ] ` ` Practice_5 => 
+- [ ] ` ` Practice_6 => 
 
 :man_student:`و من يتهيب صعود الجبال يعش أبد الدهر بين الحفر` :man_student:
 --
