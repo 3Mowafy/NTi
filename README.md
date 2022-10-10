@@ -1,6 +1,6 @@
 # NTi => DEY
 
-![5%](https://progress-bar.dev/5/?title=Progress)
+![35%](https://progress-bar.dev/35/?title=Progress)
 
 
 >_Level_2 Using NodeJs & Angular_
