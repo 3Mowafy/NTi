@@ -1,0 +1,33 @@
+{{>header}}
+{{>navbar}}
+
+  <section class="row">
+    <table class="table table-stripped">
+      <thead>
+        <tr>
+          <th>accNum</th>
+          <th>name</th>
+          <th>Initial Balance</th>
+          <th>Remainig Balance</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+{{#each allCustomers}}
+        <tr>
+          <td>{{id}}</td>
+          <td>{{name}}</td>
+          <td>{{init}}</td>
+          <td>{{remain}}</td>
+          <td>
+            <a href="/single/{{id}}" class="btn btn-primary mx-2">Show</a>
+            <a href="/addBalance/{{id}}" class="btn btn-warning mx-2">add Balance</a>
+            <a href="/remain/{{id}}" class="btn btn-danger mx-2">withdraw</a>
+          </td>
+        </tr>
+{{/each}}
+      </tbody>
+    </table>
+  </section>
+</div>
+{{>footer}}

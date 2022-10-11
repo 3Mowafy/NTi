@@ -1,0 +1,31 @@
+{{>header}}
+{{>navbar}}
+{{#if isFound}}
+  <section class="row">
+    <table class="table table-stripped">
+      <thead>
+
+        <tr>
+
+          <th>ID: {{cust.id}}</th>
+          <th>Name: {{cust.name}}</th>
+          <th>Initial Balance: {{cust.init}}</th>
+        </tr>
+  {{#each cust.opreations}}
+
+<tr>
+
+          <th>Operation: {{op}}</th>
+          <th>Value: {{val}}</th>
+</tr>
+          {{/each}}
+
+      </thead>
+    </table>
+  </section>
+{{else}}
+<div class="alert alert-danger">
+  NO-Data
+</div>
+{{/if}}
+{{>footer}}

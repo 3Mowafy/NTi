@@ -1,0 +1,20 @@
+{{>header}}
+{{>navbar}}
+<form method="post" action="/addLogic/{{cust.id}}">
+    <div class="mb-3">
+        <input name="id" placeholder="Cust ID" class="form-control" value="{{cust.id}}" disabled>
+    </div>
+    <div class="mb-3">
+        <input name="name" placeholder="Cust name" class="form-control" value="{{cust.name}}" disabled>
+    </div>
+    <div class="mb-3">
+        <input name="init" placeholder="Cust Init" class="form-control" value="{{cust.init}}" disabled>
+    </div>
+    <div class="mb-3">
+        <input name="add" placeholder="Balance Added" class="form-control">
+    </div>
+    <div class="mb-3">
+            <button class="btn btn-primary">Add Balance</button>
+    </div>
+</form>
+{{>footer}}
