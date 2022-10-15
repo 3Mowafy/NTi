@@ -1,6 +1,6 @@
 # NTi => DEY
 
-![40%](https://progress-bar.dev/40/?title=Progress)
+![50%](https://progress-bar.dev/50/?title=Progress)
 
 
 >_Level_2 Using NodeJs & Angular_
@@ -14,7 +14,7 @@
 
 - [x] ` Finsihed ` [Task_1 => Create && Read](https://github.com/3Mowafy/NTi/tree/main/Tasks/Task_1)
 - [x] ` Finsihed ` [Task_2 => Bank System](https://github.com/3Mowafy/NTi/tree/main/Tasks/bank)
-- [ ] ` ` Task_3 => 
+- [x] ` Finsihed ` [Task_3 => CRUD => NodeJS & MongoDB](https://github.com/3Mowafy/NTi/tree/main/Tasks/NodeMongo-Task)
 - [ ] ` ` Task_4 => 
 - [ ] ` ` Task_5 => 
 - [ ] ` ` Task_6 => 
