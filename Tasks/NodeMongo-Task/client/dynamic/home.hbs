@@ -1,0 +1,44 @@
+{{>header}}
+{{>navbar}}
+<section class="text-center mt-3 mb-5 bg-dark py-5">
+    <h2 class="text-warning">All Tasks</h2>
+    <table class="table table-light table-bordered mt-5 mx-auto align-middle" style="width: 90%;">
+        <thead class="align-middle">
+            <tr>
+                <th>#</th> 
+                <th>Title</th>
+                <th>Content</th>
+                <th>Dynamis <br> Due Date</th>
+                <th>Static <br> Due Date</th>
+                <th>Status</th>
+                <th colspan="3">Actions</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            {{#each Tasks}}
+            <tr>
+                <th>{{"++"@index}}</th>
+                <td>{{title}}</td>
+                <td>{{content}}</td>
+                <td>{{due-date}}</td>
+                <td>{{duedate}}</td>
+                {{#if status}}
+                <td class="text-success fw-bold">Active</td>   
+                {{else}}    
+                <td class="text-danger fw-bold">Not Active</td>       
+                {{/if}}     
+                <td>
+                    <a href="/show/{{_id}}" class="btn btn-dark px-3">SHOW</a>
+                </td>
+                <td>
+                    <a href="/edit/{{_id}}" class="btn btn-primary px-3">EDIT</a>
+                </td>
+                <td>
+                    <a href="/delete/{{_id}}" class="btn btn-danger px-3">DELETE</a>
+                </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</section>
+{{>footer}}

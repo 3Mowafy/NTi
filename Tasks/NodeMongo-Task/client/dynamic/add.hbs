@@ -1,0 +1,25 @@
+{{>header}}
+{{>navbar}}
+<section class="mt-3 bg-dark py-4">
+    <h2 class="text-warning text-center">Add New Task</h2>
+    <form method="post" action="/addTask" class="text-white w-75 mx-auto">
+    <div class="mb-3">
+        <label class="form-label">Title</label>
+        <input type="text" name="title" class="form-control" >
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Content</label>
+        <input type="text" name="content" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Due Date</label>
+        <input type="date" name="due-date" class="form-control">
+    </div>
+    <div class="mb-3 form-check">
+        <label class="form-check-label" for="exampleCheck1">Status</label>
+        <input type="checkbox" name="status" class="form-check-input" id="exampleCheck1">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</section>
+{{>footer}}
